@@ -1,0 +1,64 @@
+html, body {
+    height: 100%; /* Asegura que html y body cubran toda la pantalla */
+    margin: 0;
+    padding: 0;
+}
+* {
+    position: relative; /* Todo el contenido debe estar por encima de la capa */
+    z-index: 2;
+    text-align: center;
+    color: #FFFFFF;
+   font-family: Merriweather-Bold;
+}
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(fonts/Merriweather-Bold.ttf);
+}
+body {
+    background-image: url("IMG/fondog.png");
+    width: 100%;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Escala la imagen para cubrir toda la página */
+    background-position: center; /* Centra la imagen en la página */
+    background-attachment: fixed; /* Hace que la imagen de fondo quede fija al hacer scroll */
+    margin: 0; /* Elimina márgenes por defecto del body */
+    padding: 0; /* Elimina padding por defecto del body */
+    height: 100vh;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    z-index: 1; /* La capa negra */
+    pointer-events: none;
+}
+
+.logo{
+    margin-top: 35px;
+    max-width: 290px;
+    height: auto;
+    text-align: center;
+    box-shadow: 
+    0 0 15px 5px rgba(192, 192, 192, 0.6), 
+    0 0 20px 10px rgba(211, 211, 211, 0.5), 
+    0 0 30px 10px rgba(245, 245, 245, 0.4); 
+    border-radius: 160px; 
+}
+
+.LX{
+    text-align: center;
+    font-size: 40px;
+}
+.saluu{
+    font-size: 20px;
+}
+
+.botonsiwi {
+    text-shadow: text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+background-color: white;
+}
