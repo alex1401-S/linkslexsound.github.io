@@ -59,6 +59,7 @@ body::before {
 }
 
 .botonsiwi {
-    text-shadow: text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
 background-color: white;
+border-radius: 5px;
 }
