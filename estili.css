@@ -202,8 +202,31 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 }
 .imageniwiAmazon{
     max-width: 75px;
-    margin: 20px 10px 20px 0px ;
+    margin: 18px 14px 18px 0px ;
 }
+
+.imageniwiPaypal{
+    max-width: 63px;
+    margin: 15px 10px 15px 0px;
+    display: flex;
+    justify-content: left;
+}
+.botonesPaypal {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    text-decoration: none;
+    padding: 18px 5px;
+    font-size: 16px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
+}
+
 .foot{
     margin: 80px;
 }
