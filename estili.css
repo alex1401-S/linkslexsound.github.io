@@ -70,21 +70,21 @@ body::before {
     font-size: 16px;
     text-align: left;
     color:rgba(0, 0, 0, 1);
-    background-color: rgb(227, 216, 216);
+    background-color: rgb(247, 238, 238);
     border: none;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     max-width: 400px;
     margin: 20px auto;
-    background: linear-gradient(145deg, #ffffff, #c0c0c0);
-    transition: background-color 0.15s;
+    transition: background-color 0.10s;
 }
 .botonsiwi:hover {
-    background-color: #7c6d6d;
+    background-color: #e8dfdf;
 }
 .botonsiwi:active{
-    background-color: #473f3f; 
+    background-color: #c4bbbb; 
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6); /* Efecto presionado */
+    transform: scale(0.98);
 }
 
 .links {
@@ -113,7 +113,7 @@ body::before {
 
 }
 .botonesX{
-background-color: rgba(0, 0, 0, 1);
+background-color: rgb(29, 28, 28);
 color:#ffffff;
 text-shadow: #cac7c7;
 display: flex;
@@ -126,7 +126,15 @@ text-align: left;
 margin: 20px auto;
 max-width: 400px;
 border-radius: 20px;
-box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.4), 1px -3px 2px rgba(203, 197, 197, 0.722);
+box-shadow: 2px 4px 4px rgba(213, 212, 212, 0.468), 1px -3px 2px rgba(220, 214, 214, 0.722);
+}
+.botonesX:hover {
+    background-color: #272121;
+}
+.botonesX:active{
+    background-color: #000000; 
+    box-shadow: inset 0px 3px 6px rgba(130, 130, 130, 0.6); /* Efecto presionado */
+    transform: scale(0.98);
 }
 .botonesIG{
 background-color: rgba(233, 12, 163,1);
@@ -143,6 +151,15 @@ max-width: 400px;
 border-radius: 20px;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 }
+.botonesIG:hover {
+    background-color: rgb(246, 75, 192);
+}
+.botonesIG:active{
+    background-color: rgb(202, 2, 139); 
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(0.98);
+}
+
 .botonesYT{
     background-color: #ffffff;
     /*#dd2c28;*/
@@ -159,6 +176,14 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     background: linear-gradient(150deg, #ffffff,#ff3939);
+}
+.botonesYT:hover {
+    background-color: rgb(202, 198, 198);
+}
+.botonesYT:active{
+    background-color: rgb(255, 205, 205); 
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(0.98);
 }
 .imageniwiYT{
     max-width: 65px;
@@ -186,6 +211,14 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 
 }
+.botonesMPago:hover {
+    background-color: #0498d2;
+}
+.botonesMPago:active{
+    background-color: #0388bd;
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(0.98);
+}
 .botonesAmazon {
     background-color: #ffffff;
     color: #000000;
@@ -200,6 +233,14 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     max-width: 400px;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
+}
+.botonesAmazon:hover {
+    background-color:  #f3f1f1;
+}
+.botonesAmazon:active{
+    background-color:  #cdcaca;
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(0.98);
 }
 .imageniwiAmazon{
     max-width: 75px;
@@ -227,7 +268,14 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 }
-
+.botonesPaypal:hover {
+    background-color:  #f3f1f1;
+}
+.botonesPaypal:active{
+    background-color:  #cdcaca;
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(0.98);
+}
 .foot{
     margin: 80px;
 }
