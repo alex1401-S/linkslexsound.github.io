@@ -129,8 +129,8 @@ border-radius: 20px;
 box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.4), 1px -3px 2px rgba(203, 197, 197, 0.722);
 }
 .botonesIG{
-background-color: rgb(233, 12, 163);
-background: linear-gradient(150deg, #a800d2dc,#ffae3c);
+background-color: rgba(233, 12, 163,1);
+background: linear-gradient(150deg, #a800d2fb,#ffae3c);
 display: flex;
 align-items: center; /* Centra verticalmente */
 justify-content: center;
