@@ -16,6 +16,10 @@ html, body {
     font-family: Merriweather-Bold;
     src: url(fonts/Merriweather-Bold.ttf);
 }
+@font-face {
+    font-family: Clint Marker;
+    src: url(fonts/Clint\ Marker.ttf);
+}
 
 body {
     background-image: url("IMG/fondog.png");
@@ -58,6 +62,20 @@ body::before {
     font-size: 41px;
     text-decoration: none;
 }
+.Lexsound:hover{
+        font-family: Clint Marker;
+        text-transform: uppercase;
+        font-size: 43px;
+        letter-spacing: 0.061em;
+    
+}
+.S:hover{
+    font-family: Clint Marker;
+    color: rgb(130, 44, 43);
+    text-transform: uppercase;
+    font-size: 51px;
+    letter-spacing: 0.061em;
+}
 .saluu{
     font-size: 20px;
 
@@ -70,7 +88,7 @@ body::before {
     justify-content: center;
     text-decoration: none; /* Quita el subrayado del enlace */
     padding: 15px 5px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     color:rgba(0, 0, 0, 1);
     background-color: rgb(247, 238, 238);
@@ -101,6 +119,10 @@ body::before {
     border-radius: 15px;
     width:auto;
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.722);
+   font-size: 16px;
+}
+.speech{
+    font-size: 15px;
 }
 .logolinks {
     max-width: 62px;
@@ -122,7 +144,7 @@ align-items: center; /* Centra verticalmente */
 justify-content: center;
 text-decoration: none;
 padding: 10px 5px;
-font-size: 18px;
+font-size: 19px;
 text-align: left;
 margin: 20px 75px;
 width: auto;
@@ -153,7 +175,7 @@ align-items: center; /* Centra verticalmente */
 justify-content: center;
 text-decoration: none;
 padding: 10px 5px;
-font-size: 18px;
+font-size: 19px;
 text-align: left;
 margin: 20px 75px;
 width: auto;
@@ -179,7 +201,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     justify-content: center;
     text-decoration: none;
     padding: 10px 5px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     margin: 20px 75px;
     width: auto;
@@ -207,14 +229,13 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesMPago{
     cursor: pointer;
     background-color: #039dda;
-    /*#dd2c28;*/
     color: #FFFFFF;
     display: flex;
     align-items: center; /* Centra verticalmente */
     justify-content: center;
     text-decoration: none;
     padding: 5px 5px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     margin: 20px 75px;
     width: auto;
@@ -238,8 +259,8 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     align-items: center; /* Centra verticalmente */
     justify-content: center;
     text-decoration: none;
-    padding: 20px 5px;
-    font-size: 18px;
+    padding: 29px 5px;
+    font-size: 19px;
     text-align: left;
     margin: 20px 75px;
     width: auto;
@@ -274,7 +295,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     justify-content: center;
     text-decoration: none;
     padding: 18px 5px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     margin: 20px 75px;
     width: auto;
