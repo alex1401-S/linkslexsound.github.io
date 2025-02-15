@@ -133,6 +133,7 @@ body::before {
 align-items: center; /* Centra verticalmente */
 justify-content: center;
 text-decoration: none;
+font-size: 19px;
 margin: 5px 500px;
 padding: 10px 25px;
 width: auto;
@@ -153,8 +154,11 @@ display: inline-flex; /* Asegura que el botón se ajuste al contenido */
 .mimail img{
     margin-right: 7px;
     filter:  invert(100%);
-    max-width: 39px;
+    max-width: 42px;
     vertical-align: -8px;
+}
+.mimail:active{
+    transform: scale(0.98);
 }
 .nota{
     line-height: 1.2em;
