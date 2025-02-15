@@ -82,23 +82,6 @@ body::before {
 }
 
 .botonsiwi {
-   /* min-width: 210px;
-    cursor: pointer;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    text-decoration: none;
-    padding: 15px 5px;
-    font-size: 19px;
-    text-align: left;
-    color:rgba(0, 0, 0, 1);
-    background-color: rgb(247, 238, 238);
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
-    width: auto;
-    margin: 20px 68px;
-    transition: background-color 0.10s; */
     min-width: 210px;
     max-width: 1250px;
     cursor: pointer;
