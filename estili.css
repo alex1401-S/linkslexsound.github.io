@@ -86,8 +86,7 @@ body::before {
 }
 
 .botonsiwi {
-    min-width: 200px;
-    max-width: 1200px;
+    min-width: 225px;
     cursor: pointer;
     display: flex;
     align-items: center; /* Centra verticalmente */
@@ -119,11 +118,11 @@ body::before {
     text-align: center;
 }
 .portfolio{
-    min-width: 200px;
+    min-width: 225px;
     max-width: 1220px;
     background-color: rgba(92, 64, 51, 0.85);
     padding: 10px 20px;
-    margin: 20px auto; /* Margen vertical y horizontal */
+    margin: 20px 125px; /* Margen vertical y horizontal */
     border-radius: 15px;
     width:auto;
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.722);
@@ -192,8 +191,7 @@ body::before {
 
 }
 .botonesX{
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
 background-color: rgb(29, 28, 28);
 color:#ffffff;
@@ -205,7 +203,7 @@ text-decoration: none;
 padding: 10px 5px;
 font-size: 19px;
 text-align: left;
-margin: 20px auto;
+margin: 20px 125px;
 width: auto;
 border-radius: 20px;
 box-shadow: 2px 4px 4px rgba(213, 212, 212, 0.468), 1px -3px 2px rgba(220, 214, 214, 0.722);
@@ -226,8 +224,7 @@ box-shadow: 2px 4px 4px rgba(213, 212, 212, 0.468), 1px -3px 2px rgba(220, 214, 
 }
 
 .botonesIG{
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
 background-color: rgba(233, 12, 163,1);
 background: linear-gradient(150deg, #a800d2fb,#ffae3c);
@@ -238,7 +235,7 @@ text-decoration: none;
 padding: 10px 5px;
 font-size: 19px;
 text-align: left;
-margin: 20px auto;
+margin: 20px 125px;
 width: auto;
 border-radius: 20px;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
@@ -253,8 +250,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 }
 
 .botonesYT{
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
     background-color: #ffffff;
     /*#dd2c28;*/
@@ -266,7 +262,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     padding: 10px 5px;
     font-size: 19px;
     text-align: left;
-    margin: 20px auto;
+    margin: 20px 125px;
     width: auto;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
@@ -290,8 +286,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     margin: 20px 8px;
 }
 .botonesMPago{
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
     background-color: #039dda;
     color: #FFFFFF;
@@ -302,7 +297,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     padding: 5px 5px;
     font-size: 19px;
     text-align: left;
-    margin: 20px auto;
+    margin: 20px 125px;
     width: auto;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
@@ -317,8 +312,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     transform: scale(0.98);
 }
 .botonesAmazon {
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
     background-color: #ffffff;
     color: #000000;
@@ -329,7 +323,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     padding: 29px 5px;
     font-size: 19px;
     text-align: left;
-    margin: 20px auto;
+    margin: 20px 125px;
     width: auto;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
@@ -354,8 +348,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     justify-content: left;
 }
 .botonesPaypal {
-    min-width: 200px;
-    max-width: 1220px;
+    min-width: 225px;
     cursor: pointer;
     background-color: #ffffff;
     color: #000000;
@@ -366,7 +359,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
     padding: 18px 5px;
     font-size: 19px;
     text-align: left;
-    margin: 20px auto;
+    margin: 20px 125px;
     width: auto;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
