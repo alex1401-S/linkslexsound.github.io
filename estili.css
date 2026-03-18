@@ -235,7 +235,7 @@ box-shadow: 2px 4px 4px rgba(213, 212, 212, 0.468), 1px -3px 2px rgba(220, 214, 
 .botonesX:active{
     background-color: #000000; 
     box-shadow: inset 0px 3px 6px rgba(130, 130, 130, 0.6); /* Efecto presionado */
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
 
 .imageniwi{
@@ -266,7 +266,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesIG:active{
     background-color: rgb(202, 2, 139); 
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
 
 .botonesYT{
@@ -294,7 +294,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesYT:active{
     background-color: rgb(255, 205, 205); 
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
 .imageniwiYT{
     max-width: 65px;
@@ -329,8 +329,37 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesMPago:active{
     background-color: #0388bd;
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
+
+.buymeacoffee{
+        cursor: pointer;
+    background-color: rgba(255, 221, 0, 1);;
+    color: #ffff;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 19px;
+    text-align: left;
+    margin: 20px 125px;
+    width: auto;
+    border-radius: 80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
+}
+.buymeacoffee:hover {
+    background-color: rgb(246, 213, 0);
+
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.722);
+    transition: all 0.3s ease;
+}
+.buymeacoffee:active {
+    transform: scale(0.97);
+      background-color: rgb(233, 202, 0);
+}
+
+
 .botonesAmazon {
     min-width: 225px;
     cursor: pointer;
@@ -354,7 +383,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesAmazon:active{
     background-color:  #cdcaca;
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
 .imageniwiAmazon{
     max-width: 75px;
@@ -390,7 +419,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4),0px -1px 1px rgba(0, 0, 0, 0.722);
 .botonesPaypal:active{
     background-color:  #cdcaca;
     box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(0.98);
+    transform: scale(0.97);
 }
 .foot{
     margin: 121px;
